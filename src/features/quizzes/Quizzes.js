@@ -7,7 +7,6 @@ import { selectQuizzes } from "./quizzesSlice";
 
 export default function Quizzes() {
   const quizzes = useSelector(selectQuizzes); // replace this with a call to your selector to get all the quizzes in state
-  console.log(quizzes);
 
   return (
     <section className="center">
